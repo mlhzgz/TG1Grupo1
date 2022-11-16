@@ -1,0 +1,17 @@
+# Partes del proyecto
+
+    #Estructuras de datos
+
+    #Estructuras de código
+        #Actividades
+            #ListView?
+            #RecyclerView?
+            #Formulario
+                #Controles
+
+        #Adapters
+        #Servicios
+        #Logica de negocio
+        #...
+
+    #Descripción del proyecto
