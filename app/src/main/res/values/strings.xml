@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">TG1Grupo1</string>
+    <string-array name="titulo">
+        <item></item>
+    </string-array>
+    <string-array name="descripcionCorta">
+        <item></item>
+    </string-array>
+    <string-array name="descripcionLarga">
+        <item></item>
+    </string-array>
+    <string-array name="ingredientes">
+        <item></item>
+    </string-array>
 </resources>
