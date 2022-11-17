@@ -30,11 +30,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void creadorDeContenido(){
         ArrayList<Integer> imagenes = new ArrayList<>();
+        imagenes.add(R.drawable.gazpacho);
         List<Receta> recetas = new ArrayList<>();
-        //no se p
-        //String[] titulo = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, titulo);
-        recetas.add(new Receta(R.drawable.tortilla, "Tortilla de Patata", "La tortilla de patatas, de papas o tortilla española es una tortilla u omelete", ""));
-        recetas.add(new Receta(R.drawable.gazpacho,"Gazpacho", "El gazpacho es una sopa fría con varios ingredientes como aceite de oliva, vinagre, agua, hortalizas crudas", "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aper"));
+        String[] titulo = getResources().getStringArray(R.array.titulo);
+        String[] ingredientes = getResources().getStringArray(R.array.ingredientes);
+        String[] descripcion = getResources().getStringArray(R.array.descripcionCorta);
+        String[] descripcionLarga = getResources().getStringArray(R.array.descripcionLarga);
+        recetas.add(new Receta(R.drawable.tortilla, "Tortilla de Patata","", "La tortilla de patatas, de papas o tortilla española es una tortilla u omelete", ""));
+        recetas.add(new Receta(R.drawable.gazpacho,"Gazpacho", "","El gazpacho es una sopa fría con varios ingredientes como aceite de oliva, vinagre, agua, hortalizas crudas", "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aper"));
         // recetas.add(new Serie(R.drawable.bnha, "Boku no Hero Academia", 2013));
         // recetas.add(new Serie(R.drawable.naruto, "Naruto", 2000));
 
