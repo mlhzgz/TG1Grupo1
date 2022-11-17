@@ -4,14 +4,14 @@
 
     #Estructuras de código
         #Actividades
-            #ListView?
-            #RecyclerView?
-            #Formulario
-                #Controles
-
-        #Adapters
-        #Servicios
-        #Logica de negocio
-        #...
+            #Spash / Temas / Recopilación de Información (Nicolas Del Amo)
+            #Enlace Actividades / Correcto Funcionamiento / Jefe de Equipo (Daniel Alvaro del Rio)
+            #RecyclerView / Layouts (Christian Martinez)
 
     #Descripción del proyecto
+
+    Hemos decidido hacer un Splash donde mostrara el logo de la aplicación y despues de cinco segundos mostrara la pantalla
+    de inicio donde se mostraran las receteas de los diversso platos con una imagen y una descripcion corta, cuando el usuario
+    pulse sobre la imagen o la descripcion se mostrara a pantalla completa los ingredientes y los pasos requeridos
+    para hacer el plato, si se vuelve a pulsar sobre la imagen esta se mostrara en tamaño grande para que el usuario pueda ver
+    el resultado final
