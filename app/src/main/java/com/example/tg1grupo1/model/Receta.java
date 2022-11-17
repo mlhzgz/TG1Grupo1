@@ -4,6 +4,7 @@ public class Receta {
 
     private int imagen;
     private String titulo;
+    private String ingredientes;
     private String descripcion;
     private String descripcionLarga;
 
