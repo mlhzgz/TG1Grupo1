@@ -39,7 +39,6 @@ public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder>{
         holder.titulo.setText(recetas.get(position).getTitulo());
         holder.descripcion.setText(String.valueOf(recetas.get(position).getDescripcion()));
         holder.imagen.setImageResource(recetas.get(position).getImagen());
-        holder.descripcionLarga.setText(String.valueOf(recetas.get(position).getDescripcionLarga()));
     }
 
     @Override
@@ -51,14 +50,12 @@ public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder>{
         public ImageView imagen;
         public TextView titulo;
         public TextView descripcion;
-        public TextView descripcionLarga;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             imagen = itemView.findViewById(R.id.imgFoto);
             titulo = itemView.findViewById(R.id.txtTitulo);
             descripcion = itemView.findViewById(R.id.txtDescripcion);
-            descripcionLarga = itemView.findViewById(R.id.txtDescripcionLarga);
         }
     }
 

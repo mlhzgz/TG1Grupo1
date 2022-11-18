@@ -4,12 +4,14 @@ public class Receta {
 
     private int imagen;
     private String titulo;
+    private String ingredientes;
     private String descripcion;
     private String descripcionLarga;
 
-    public Receta(int imagen, String titulo, String descripcion, String descripcionLarga) {
+    public Receta(int imagen, String titulo,String ingredientes, String descripcion, String descripcionLarga) {
         this.imagen = imagen;
         this.titulo = titulo;
+        this.ingredientes = ingredientes;
         this.descripcion = descripcion;
         this.descripcionLarga = descripcionLarga;
     }
