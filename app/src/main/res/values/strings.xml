@@ -1,15 +1,61 @@
 <resources>
     <string name="app_name">TG1Grupo1</string>
     <string-array name="titulo">
-        <item></item>
+        <item>Tortilla</item>
+        <item>Gazpacho</item>
+        <item>Spaguetis a la Boloñesa</item>
+        <item>Hamburguesa</item>
+        <item>Ramen</item>
     </string-array>
     <string-array name="descripcionCorta">
-        <item></item>
+        <item>La tortilla de patatas es una simple omelet con patatas</item>
+        <item>El Gazpacho es una sopa fria hecha principalmente de tomate</item>
+        <item>Los Espaguetis a la boloñesa son un plato tipico italiano que combina pasta y carne</item>
+        <item>La hamburguesa es un conjunto de pan, carne, lechuga y salsas</item>
+        <item>El ramen es una sopa tradicional japonesa, se volvio famosisima gracias a Naruto</item>
     </string-array>
     <string-array name="descripcionLarga">
-        <item></item>
+        <item>La tortilla de patatas, de papas o tortilla española es una tortilla u omelet ​ a la que se le agrega patatas troceadas.​ Se trata de uno de los platos más conocidos y emblemáticos de la cocina española, siendo un producto muy popular que se puede encontrar en casi cualquier bar o restaurante del país.​</item>
+        <item>El gazpacho es una sopa fría con varios ingredientes como aceite de oliva, vinagre, agua, hortalizas crudas, generalmente tomates, pepinos, pimientos y ajo, es conocido en Europa pero su mayor consumo reside en España</item>
+        <item>Los espaguetis a la boloñesa son una simple combinación de la salsa griega boloñesa y espaguetis, se le suele poner por encima queso rallado y alguna que otra especia, es un plato muy conocido en la unión europea pero sobretodo en Italia</item>
+        <item>La hamburguesa es un plato mundialmente conocido como el icono de América, se compone de varios ingredientes apilados en forma de torre que se puede comer con las manos gracias a que dos panes rodean el resto de ingredientes</item>
+        <item>El Ramen es una sopa tradicional Japonesa la cual llama a muchísimos visitantes a probar, este plato que combina cerdo, pollo y Dashi, una alga salada comestible es considerado un manjar en Japón y un plato exotico alrededor del mundo</item>
     </string-array>
     <string-array name="ingredientes">
-        <item></item>
+        <item>Patatas (3-4),
+            huevos pasteurizados (3),
+            cebolla frita (media),
+            aceite de girasol,
+            aceite de oliva virgen,
+            sal.
+            </item>
+        <item>Tomate,
+            Aceite de oliva,
+            Pepino,
+            Pimiento,
+            Vinagre,
+            Sal,
+            Ajo.
+            </item>
+        <item>Pasta de espaguetis,
+            Carne picada,
+            Salsa de tomate,
+            Queso rallado (opcional),
+            Ajo.
+            </item>
+        <item>Pan de hamburguesa,
+            Carne,
+            Loncha de queso,
+            Tomate (Rodajas),
+            Cebolla,
+            Lechuga,
+            Ketchup.
+            </item>
+        <item>Pollo (Rodajas),
+            Cerdo (troceado),
+            Dashi,
+            Noodles,
+            Zanahoria
+            </item>
     </string-array>
 </resources>
