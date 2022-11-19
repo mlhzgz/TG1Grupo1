@@ -4,14 +4,11 @@
 
     #Estructuras de código
         #Actividades
-            #Spash / Temas / Recopilación de Información (Nicolas Del Amo)
+            #Splash / Temas / Recopilación de Información (Nicolas Del Amo)
             #Enlace Actividades / Correcto Funcionamiento / Jefe de Equipo (Daniel Alvaro del Rio)
             #RecyclerView / Layouts (Christian Martinez)
 
     #Descripción del proyecto
 
-    Hemos decidido hacer un Splash donde mostrara el logo de la aplicación y despues de cinco segundos mostrara la pantalla
-    de inicio donde se mostraran las receteas de los diversos platos con una imagen y una descripción corta, cuando el usuario
-    pulse sobre la imagen o la descripción se mostrara a pantalla completa los ingredientes y los pasos requeridos
-    para hacer el plato, si se vuelve a pulsar sobre la imagen esta se mostrara en tamaño grande para que el usuario pueda ver
-    el resultado final
+    # Inicio Splash : El inicio de la aplicacion consiste en un spash que durara 5 Segundos mostrado el lago de la aplicacion
+    y a continuación

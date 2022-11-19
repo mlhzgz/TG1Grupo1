@@ -6,7 +6,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -23,9 +26,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Intent splash = new Intent(getApplicationContext(), splash.class);
+        startActivity(splash);
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         creadorDeContenido();
+
     }
 
     private void creadorDeContenido(){
