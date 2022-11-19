@@ -10,5 +10,12 @@
 
     #Descripción del proyecto
 
-    # Inicio Splash : El inicio de la aplicacion consiste en un spash que durara 5 Segundos mostrado el lago de la aplicacion
-    y a continuación
+    # Inicio Splash : El inicio de la aplicacion consiste en un spash que durara 5 Segundos mostrado el logo de la aplicacion
+
+    # MainActivity : Esta ventana mostrara las recetas de la aplicacion con un recyclerview
+
+    # RecyclerView : Al pulsar sobre cualquier apartado de recetas se mostrara el alert dialoj detallado
+
+    # AlertDialog : Mostrara el nombre, los ingredientes y una descripcion extensa del plato acompañada de una imagen
+
+    # Imagen : Mostrar la imagen a gran escala para que se pueda ver el resultado final
