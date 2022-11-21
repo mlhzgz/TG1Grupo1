@@ -1,6 +1,9 @@
 # Partes del proyecto
 
     #Estructuras de datos
+    Descripcion de platos, Recetas y Imagenes de platos
+
+    Array de Strings con la descripcion corta y larga del proyecto mas las imagenes de las recetas
 
     #Estructuras de código
         #Actividades
@@ -9,13 +12,17 @@
             #RecyclerView / Layouts (Christian Martinez)
 
     #Descripción del proyecto
+    # Inicio Splash : El inicio de la aplicacion consiste en un splash que durara 5 Segundos mostrado el logo de la aplicacion ->
 
-    # Inicio Splash : El inicio de la aplicacion consiste en un spash que durara 5 Segundos mostrado el logo de la aplicacion
+    -> # MainActivity : Esta ventana mostrara las recetas de la aplicacion con un recyclerview ->
 
-    # MainActivity : Esta ventana mostrara las recetas de la aplicacion con un recyclerview
+    -> # RecyclerView : Al pulsar sobre cualquier apartado de recetas se mostrara el alert dialoj detallado ->
 
-    # RecyclerView : Al pulsar sobre cualquier apartado de recetas se mostrara el alert dialoj detallado
+    -> # AlertDialog : Mostrara el nombre, los ingredientes y una descripcion extensa del plato acompañada de una imagen ->
 
-    # AlertDialog : Mostrara el nombre, los ingredientes y una descripcion extensa del plato acompañada de una imagen
+    -> # Imagen : Mostrar la imagen a gran escala para que se pueda ver el resultado final
 
-    # Imagen : Mostrar la imagen a gran escala para que se pueda ver el resultado final
+    La aplicacion se basa en que empieze con un Splash que mostrara el logo de la aplicacion dando la bienvenida al usuario,
+    despues de cinco segundos mostrara el inicio de la aplicacion donde se mostrara un recyclerview con los platos de la aplicación
+    cuanado el usuario pulse sobre una de las recetas mostrara en pantalla completa la imagen, nombre,  ingredientes y descripcion
+    extensa de la receta, si el usuario en esta ventana pulsa sobre la imagen se mostrara la imagen a pantalla completa
