@@ -25,4 +25,4 @@
     La aplicacion se basa en que empieze con un Splash que mostrara el logo de la aplicacion dando la bienvenida al usuario,
     despues de cinco segundos mostrara el inicio de la aplicacion donde se mostrara un recyclerview con los platos de la aplicación
     cuanado el usuario pulse sobre una de las recetas mostrara en pantalla completa la imagen, nombre,  ingredientes y descripcion
-    extensa de la receta, si el usuario en esta ventana pulsa sobre la imagen se mostrara la imagen a pantalla completa
+    extensa de la receta, si el usuario en esta ventana pulsa sobre la imagen se mostrara la imagen a pantalla completa.
