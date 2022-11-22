@@ -6,6 +6,16 @@
         <item>Spaguetis a la Boloñesa</item>
         <item>Hamburguesa</item>
         <item>Ramen</item>
+        <item>Burrito</item>
+        <item>Terrnera China</item>
+        <item>Sandwitch de queso</item>
+        <item>Shusi</item>
+        <item>Arroz Chino</item>
+        <item>Mochi</item>
+        <item>Flan</item>
+        <item>Arroz con leche</item>
+        <item>Crep</item>
+        <item>Helado</item>
     </string-array>
     <string-array name="descripcionCorta">
         <item>La tortilla de patatas es una simple omelet con patatas</item>
@@ -13,6 +23,16 @@
         <item>Los Espaguetis a la boloñesa son un plato tipico italiano que combina pasta y carne</item>
         <item>La hamburguesa es un conjunto de pan, carne, lechuga y salsas</item>
         <item>El ramen es una sopa tradicional japonesa, se volvio famosisima gracias a Naruto</item>
+        <item>El burrito es un plato tradicional famoso por ser muy diverso</item>
+        <item>La terrnera china es un plato donde el ingrediente principal es ternera y </item>
+        <item>Un simple sadwitch con queso deretido, famoso en America</item>
+        <item>Un entrante Japones muy versatil compuesto de arroz alga y salmon envuelto en un royo</item>
+        <item>El arroz tres delicias es una combinacion de arroz, carne, guisantes y algo de huevo con soja</item>
+        <item>Un postre Japones tradicional famoso por su sabor y su forma, sidno considerado un postre elegante</item>
+        <item>El flan es famoso e muchas gastronomias siendo reocnocido en todo el mundo</item>
+        <item>El Arroz con leche es un postre frio con un toque de canela</item>
+        <item>Famoso en francia la crep es el primo delgado de las tortitas</item>
+        <item>El postre frio mas famoso del mundo, simple pero eficaz</item>
     </string-array>
     <string-array name="descripcionLarga">
         <item>La tortilla de patatas, de papas o tortilla española es una tortilla u omelet ​ a la que se le agrega patatas troceadas.​ Se trata de uno de los platos más conocidos y emblemáticos de la cocina española, siendo un producto muy popular que se puede encontrar en casi cualquier bar o restaurante del país.​</item>
@@ -20,6 +40,16 @@
         <item>Los espaguetis a la boloñesa son una simple combinación de la salsa griega boloñesa y espaguetis, se le suele poner por encima queso rallado y alguna que otra especia, es un plato muy conocido en la unión europea pero sobretodo en Italia</item>
         <item>La hamburguesa es un plato mundialmente conocido como el icono de América, se compone de varios ingredientes apilados en forma de torre que se puede comer con las manos gracias a que dos panes rodean el resto de ingredientes</item>
         <item>El Ramen es una sopa tradicional Japonesa la cual llama a muchísimos visitantes a probar, este plato que combina cerdo, pollo y Dashi, una alga salada comestible es considerado un manjar en Japón y un plato exotico alrededor del mundo</item>
+        <item>El burrito es un plato Proveniente de México, es muy famoso debido a que puede estar rellenado por cualquier tipo de condimentos e ingredientes, usualmente se llena con pollo, verduras salteadas y alguna salsa picante, pero también se puede rellenar con lo que el cocinero dese</item>
+        <item>La ternera china es un plato de carne combinado con verduras y una salsa creada a base de la propia ternera, fue originalmente creada en china y es un plato común en su país de origen.</item>
+        <item>El sándwich con queso es un plato muy simple pero se considera uno de las meriendas más fáciles y deliciosas de entre la gastronomía Americana</item>
+        <item>El entrante más famoso de Japón, el Sushi, se considera un platillo elegante y muy sabroso alrededor de todo el mundo y es al mismo tiempo uno de los platos más flexibles de la gastronomía Japonesa</item>
+        <item>El arroz tres delicias originalmente creado en china ha sido adaptado a lo largo de los años en casi todos de los países de la unión Europea, es un plato simple pero uno de los favoritos de todo el mundo</item>
+        <item>El mochi, es una pasta de arroz tradicional japonesa que se mezcla con sabores como el chocolate, o el té verde para darle saber, es famoso por ser un postre único en la gastronomía y uno muy popular</item>
+        <item>El flan es un postre dulce uno de los favoritos en todo el mundo, debido a su color y sabor, es un postre que se le puede dar muchas formas y se puede añadir a cualquier postre culinario</item>
+        <item>Este postre famosísimo en la unión europea consta de leche y arroz y algún que otro toque de frutas, se considera un postre delicado y gastronómicamente elegante, se suele añadir canela para darle mas sabor, también se suele acompañar con cafe</item>
+        <item>La crep es un postre simple pero delicioso, se compone de una oblea que se calienta en una sartén parecida a un tortita pero esta se debe hacer lo más fino posible para poder ser doblada, se unta con chocolate de cualquier tipo y usualmente se junta con frutas del bosque o con platano</item>
+        <item>Un postre que existe en todo el mundo y con millones de formas, el helado es un postre normalmente consumido en temporadas de calor y es un gran postre dulce que se utiliza en casi todas las gastronomías</item>
     </string-array>
     <string-array name="ingredientes">
         <item>Patatas (3-4),
@@ -56,6 +86,64 @@
             Dashi,
             Noodles,
             Zanahoria
+            </item>
+        <item>Oblea de maíz,
+            Carne picada,
+            Verduras (a elección),
+            Salsa picante
+            </item>
+        <item>Ternera,
+            Cebolla,
+            Zanahoria,
+            Guisantes,
+            Almendras.
+            </item>
+        <item>Pan Bimbo,
+            Queso de Loncha
+            </item>
+        <item>Hoja de alga,
+            Arroz,
+            Slamon,
+            Pepino,
+            Atún
+            </item>
+        <item>Arroz,
+            Jamón,
+            huevo,
+            Guisantes,
+            Salsa soja (opcional)
+            </item>
+        <item>175 g de harina de arroz para mochi o de arroz glutinoso,
+            75 g de azúcar,
+            250 ml de agua,
+            Almidón de maíz para enharinar,
+            500 g de dulce de judía roja (anko)</item>
+        <item>3 huevos camperos,
+            6 yemas de huevos camperos,
+            200 g. de azúcar (2 cucharaditas por flan, si los quieres menos dulce añadid menos),
+            750 ml de leche entera
+            </item>
+        <item>1 litro de leche,
+            100 gr de arroz especial postres,
+            70 gr de azúcar,
+            2 trozos de corteza de limón,
+            2 trozos de corteza de naranja,
+            1 rama de canela,
+            1/2 vaina de vainilla,
+            canela en polvo
+            </item>
+        <item>125 gr de harina,
+            2 huevos,
+            250 ml de leche,
+            50 gr de mantequilla,
+            5 gr de azúcar,
+            1 pizca de sal,
+            1 cucharadita de mantequilla para untar la sartén
+            </item>
+        <item>Hielo,
+            Leche,
+            Azúcar,
+            Saborizante (a elegir)
             </item>
     </string-array>
 </resources>
