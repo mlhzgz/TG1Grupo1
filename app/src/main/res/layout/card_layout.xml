@@ -51,7 +51,7 @@
             <TextView
                 android:id="@+id/txtDescripcion"
                 android:layout_width="match_parent"
-                android:layout_height="57dp"
+                android:layout_height="150dp"
                 android:text="TextView"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -61,22 +61,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.75" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="5dp" />
-
-            <TextView
-                android:id="@+id/txtDescripcionLarga"
-                android:layout_width="match_parent"
-                android:layout_height="88dp"
-                android:text="TextView"
-                android:textSize="12sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.778"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.75" />
         </LinearLayout>
     </LinearLayout>
 
