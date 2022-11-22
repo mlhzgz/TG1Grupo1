@@ -43,10 +43,14 @@ public class MainActivity extends AppCompatActivity {
         String[] ingredientes = getResources().getStringArray(R.array.ingredientes);
         String[] descripcion = getResources().getStringArray(R.array.descripcionCorta);
         String[] descripcionLarga = getResources().getStringArray(R.array.descripcionLarga);
+        //con este for lo que hacemos es automatizar el cargar los datos dentro del reciclerView
+        for(int i = 0; i<imagenes.size();i++){
+            recetas.add(new Receta(imagenes.get(i), titulo[i], ingredientes[i], descripcion[i], descripcionLarga[i]));
+        }
+        /*
         recetas.add(new Receta(R.drawable.tortilla, "Tortilla de Patata","", "La tortilla de patatas, de papas o tortilla española es una tortilla u omelete", ""));
         recetas.add(new Receta(R.drawable.gazpacho,"Gazpacho", "","El gazpacho es una sopa fría con varios ingredientes como aceite de oliva, vinagre, agua, hortalizas crudas", "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aper"));
-        // recetas.add(new Serie(R.drawable.bnha, "Boku no Hero Academia", 2013));
-        // recetas.add(new Serie(R.drawable.naruto, "Naruto", 2000));
+        */
 
         RecyclerView recyclerRecetas = findViewById(R.id.recyclerRecetas);
         recyclerRecetas.setHasFixedSize(true);
