@@ -93,6 +93,15 @@ public class MainActivity extends AppCompatActivity implements RAdapter.OnNoteLi
         ingredientes.setText(recetas.get(posicion).getIngredientes());
         titulo.setText(recetas.get(posicion).getTitulo());
         imagen.setImageResource(recetas.get(posicion).getImagen());
+        imagen.setOnClickListener(v->{
+            AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+            LayoutInflater inflater1 = getLayoutInflater();
+            View view1 = inflater1.inflate(R.layout.recetaexpandida, null);
+            ImageView imagenExpandida = view1.findViewById(R.id.imagenXXL);
+            imagenExpandida.setImageResource(recetas.get(posicion).getImagen());
+            builder1.setView(view1);
+            builder1.show();
+        });
         builder.setView(view);
         builder.show();
     }
