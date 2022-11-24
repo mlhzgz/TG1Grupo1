@@ -52,97 +52,97 @@
         <item>Un postre que existe en todo el mundo y con millones de formas, el helado es un postre normalmente consumido en temporadas de calor y es un gran postre dulce que se utiliza en casi todas las gastronomías</item>
     </string-array>
     <string-array name="ingredientes">
-        <item>Patatas (3-4),
-            huevos pasteurizados (3),
-            cebolla frita (media),
-            aceite de girasol,
-            aceite de oliva virgen,
-            sal.
+        <item>Patatas (3-4)\n
+            huevos pasteurizados (3)\n
+            cebolla frita (media)\n
+            aceite de girasol\n
+            aceite de oliva virgen\n
+            sal
             </item>
-        <item>Tomate,
-            Aceite de oliva,
-            Pepino,
-            Pimiento,
-            Vinagre,
-            Sal,
-            Ajo.
+        <item>Tomate\n
+            Aceite de oliva\n
+            Pepino\n
+            Pimiento\n
+            Vinagre\n
+            Sal\n
+            Ajo
             </item>
-        <item>Pasta de espaguetis,
-            Carne picada,
-            Salsa de tomate,
-            Queso rallado (opcional),
-            Ajo.
+        <item>Pasta de espaguetis\n
+            Carne picada\n
+            Salsa de tomate\n
+            Queso rallado (opcional)\n
+            Ajo
             </item>
-        <item>Pan de hamburguesa,
-            Carne,
-            Loncha de queso,
-            Tomate (Rodajas),
-            Cebolla,
-            Lechuga,
-            Ketchup.
+        <item>Pan de hamburguesa\n
+            Carne\n
+            Loncha de queso\n
+            Tomate (Rodajas)\n
+            Cebolla\n
+            Lechuga\n
+            Ketchup
             </item>
-        <item>Pollo (Rodajas),
-            Cerdo (troceado),
-            Dashi,
-            Noodles,
+        <item>Pollo (Rodajas)\n
+            Cerdo (troceado)\n
+            Dashi\n
+            Noodles\n
             Zanahoria
             </item>
-        <item>Oblea de maíz,
-            Carne picada,
-            Verduras (a elección),
+        <item>Oblea de maíz\n
+            Carne picada\n
+            Verduras (a elección)\n
             Salsa picante
             </item>
-        <item>Ternera,
-            Cebolla,
-            Zanahoria,
-            Guisantes,
-            Almendras.
+        <item>Ternera\n
+            Cebolla\n
+            Zanahoria\n
+            Guisantes\n
+            Almendras
             </item>
-        <item>Pan Bimbo,
+        <item>Pan Bimbo\n
             Queso de Loncha
             </item>
-        <item>Hoja de alga,
-            Arroz,
-            Slamon,
-            Pepino,
+        <item>Hoja de alga\n
+            Arroz\n
+            Slamon\n
+            Pepino\n
             Atún
             </item>
-        <item>Arroz,
-            Jamón,
-            huevo,
-            Guisantes,
+        <item>Arroz\n
+            Jamón\n
+            huevo\n
+            Guisantes\n
             Salsa soja (opcional)
             </item>
-        <item>175 g de harina de arroz para mochi o de arroz glutinoso,
-            75 g de azúcar,
-            250 ml de agua,
-            Almidón de maíz para enharinar,
+        <item>175 g de harina de arroz para mochi o de arroz glutinoso\n
+            75 g de azúcar\n
+            250 ml de agua\n
+            Almidón de maíz para enharinar\n
             500 g de dulce de judía roja (anko)</item>
-        <item>3 huevos camperos,
-            6 yemas de huevos camperos,
-            200 g. de azúcar (2 cucharaditas por flan, si los quieres menos dulce añadid menos),
+        <item>3 huevos camperos\n
+            6 yemas de huevos camperos\n
+            200 g. de azúcar (2 cucharaditas por flan, si los quieres menos dulce añadid menos)\n
             750 ml de leche entera
             </item>
-        <item>1 litro de leche,
-            100 gr de arroz especial postres,
-            70 gr de azúcar,
-            2 trozos de corteza de limón,
-            2 trozos de corteza de naranja,
-            1 rama de canela,
-            1/2 vaina de vainilla,
+        <item>1 litro de leche\n
+            100 gr de arroz especial postres\n
+            70 gr de azúcar\n
+            2 trozos de corteza de limón\n
+            2 trozos de corteza de naranja\n
+            1 rama de canela\n
+            1/2 vaina de vainilla\n
             canela en polvo
             </item>
-        <item>125 gr de harina,
-            2 huevos,
-            250 ml de leche,
-            50 gr de mantequilla,
-            5 gr de azúcar,
-            1 pizca de sal,
+        <item>125 gr de harina\n
+            2 huevos\n
+            250 ml de leche\n
+            50 gr de mantequilla\n
+            5 gr de azúcar\n
+            1 pizca de sal\n
             1 cucharadita de mantequilla para untar la sartén
             </item>
-        <item>Hielo,
-            Leche,
-            Azúcar,
+        <item>Hielo\n
+            Leche\n
+            Azúcar\n
             Saborizante (a elegir)
             </item>
     </string-array>
