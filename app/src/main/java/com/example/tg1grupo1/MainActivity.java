@@ -36,11 +36,10 @@ public class MainActivity extends AppCompatActivity implements RAdapter.OnNoteLi
         creadorDeContenido();
 
     }
-
+    private List<Receta> recetas = new ArrayList<>();
     //con este for lo que hacemos es automatizar el cargar los datos dentro del reciclerView
     private void creadorDeContenido(){
         ArrayList<Integer> imagenes = insertarImagenes();
-        List<Receta> recetas = new ArrayList<>();
         String[] titulo = getResources().getStringArray(R.array.titulo);
         String[] ingredientes = getResources().getStringArray(R.array.ingredientes);
         String[] descripcion = getResources().getStringArray(R.array.descripcionCorta);
@@ -86,6 +85,15 @@ public class MainActivity extends AppCompatActivity implements RAdapter.OnNoteLi
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         LayoutInflater inflater = getLayoutInflater();
         View view = inflater.inflate(R.layout.descripcion_layout, null);
+        TextView descripcionLarga = view.findViewById(R.id.txtDescripcionLarga);
+        TextView ingredientes = view.findViewById(R.id.txtIngredientes);
+        TextView titulo = view.findViewById(R.id.txtTitulo);
+        ImageView imagen = view.findViewById(R.id.imgFoto);
+        descripcionLarga.setText(recetas.get(posicion).getDescripcionLarga());
+        ingredientes.setText(recetas.get(posicion).getIngredientes());
+        titulo.setText(recetas.get(posicion).getTitulo());
+        imagen.setImageResource(recetas.get(posicion).getImagen());
         builder.setView(view);
+        builder.show();
     }
 }
