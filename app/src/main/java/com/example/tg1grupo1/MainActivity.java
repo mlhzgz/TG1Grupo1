@@ -100,9 +100,21 @@ public class MainActivity extends AppCompatActivity implements RAdapter.OnNoteLi
             ImageView imagenExpandida = view1.findViewById(R.id.imagenXXL);
             imagenExpandida.setImageResource(recetas.get(posicion).getImagen());
             builder1.setView(view1);
+            builder1.setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+
+                }
+            });
             builder1.show();
         });
         builder.setView(view);
+        builder.setNegativeButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                
+            }
+        });
         builder.show();
     }
 }
