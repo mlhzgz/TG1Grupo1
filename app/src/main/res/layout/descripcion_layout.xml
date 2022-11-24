@@ -14,23 +14,24 @@
         android:paddingVertical="5dp" >
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="142dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imgFoto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="142dp"
+                android:layout_height="118dp"
+                android:textAlignment="textStart"
                 tools:srcCompat="@tools:sample/avatars" />
 
-            <EditText
+            <TextView
                 android:id="@+id/txtIngredientes"
                 android:layout_width="match_parent"
-                android:layout_height="186dp"
+                android:layout_height="198dp"
                 android:ems="10"
                 android:gravity="start|top"
-                android:inputType="textMultiLine"
+                android:textAlignment="textStart"
                 android:textColor="#000000" />
         </LinearLayout>
 
@@ -45,21 +46,22 @@
                 android:layout_height="wrap_content"
                 android:paddingHorizontal="5dp"
                 android:text="TextView"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="20dp" />
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/txtDescripcionLarga"
                 android:layout_width="match_parent"
                 android:layout_height="284dp"
                 android:ems="10"
                 android:gravity="start|top"
-                android:inputType="textMultiLine"
                 android:paddingHorizontal="5dp"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="16dp" />
         </LinearLayout>
     </LinearLayout>
 

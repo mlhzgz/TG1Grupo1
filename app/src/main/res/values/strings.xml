@@ -3,35 +3,35 @@
     <string-array name="titulo">
         <item>Tortilla</item>
         <item>Gazpacho</item>
-        <item>Spaguetis a la Boloñesa</item>
+        <item>Espaguetis a la Boloñesa</item>
         <item>Hamburguesa</item>
         <item>Ramen</item>
         <item>Burrito</item>
-        <item>Terrnera China</item>
+        <item>Ternera China</item>
         <item>Sandwitch de queso</item>
-        <item>Shusi</item>
+        <item>Sushi</item>
         <item>Arroz Chino</item>
         <item>Mochi</item>
         <item>Flan</item>
         <item>Arroz con leche</item>
-        <item>Crep</item>
+        <item>Crepê</item>
         <item>Helado</item>
     </string-array>
     <string-array name="descripcionCorta">
         <item>La tortilla de patatas es una simple omelet con patatas</item>
-        <item>El Gazpacho es una sopa fria hecha principalmente de tomate</item>
-        <item>Los Espaguetis a la boloñesa son un plato tipico italiano que combina pasta y carne</item>
+        <item>El gazpacho es una sopa fria hecha principalmente de tomate</item>
+        <item>Los espaguetis a la boloñesa son un plato tipico italiano que combina pasta y carne</item>
         <item>La hamburguesa es un conjunto de pan, carne, lechuga y salsas</item>
         <item>El ramen es una sopa tradicional japonesa, se volvio famosisima gracias a Naruto</item>
         <item>El burrito es un plato tradicional famoso por ser muy diverso</item>
-        <item>La terrnera china es un plato donde el ingrediente principal es ternera y </item>
-        <item>Un simple sadwitch con queso deretido, famoso en America</item>
-        <item>Un entrante Japones muy versatil compuesto de arroz alga y salmon envuelto en un royo</item>
-        <item>El arroz tres delicias es una combinacion de arroz, carne, guisantes y algo de huevo con soja</item>
-        <item>Un postre Japones tradicional famoso por su sabor y su forma, sidno considerado un postre elegante</item>
-        <item>El flan es famoso e muchas gastronomias siendo reocnocido en todo el mundo</item>
-        <item>El Arroz con leche es un postre frio con un toque de canela</item>
-        <item>Famoso en francia la crep es el primo delgado de las tortitas</item>
+        <item>La ternera china es un plato donde el ingrediente principal es ternera y </item>
+        <item>Un simple sandwitch con queso derretido, famoso en America</item>
+        <item>Un entrante Japones muy versatil compuesto de arroz, algas nori y salmon envuelto en un royo</item>
+        <item>El arroz tres delicias es una combinacion de arroz, carne, guisantes y un revuelto de unos huevos con soja</item>
+        <item>Un postre Japones tradicional famoso por su sabor y su forma, siendo considerado un postre elegante</item>
+        <item>El flan es famoso en muchas gastronomias siendo reocnocido en todo el mundo</item>
+        <item>El arroz con leche es un postre frio con un toque de canela</item>
+        <item>Famoso en francia la crepê es el primo delgado de las tortitas</item>
         <item>El postre frio mas famoso del mundo, simple pero eficaz</item>
     </string-array>
     <string-array name="descripcionLarga">
@@ -42,7 +42,7 @@
         <item>El Ramen es una sopa tradicional Japonesa la cual llama a muchísimos visitantes a probar, este plato que combina cerdo, pollo y Dashi, una alga salada comestible es considerado un manjar en Japón y un plato exotico alrededor del mundo</item>
         <item>El burrito es un plato Proveniente de México, es muy famoso debido a que puede estar rellenado por cualquier tipo de condimentos e ingredientes, usualmente se llena con pollo, verduras salteadas y alguna salsa picante, pero también se puede rellenar con lo que el cocinero dese</item>
         <item>La ternera china es un plato de carne combinado con verduras y una salsa creada a base de la propia ternera, fue originalmente creada en china y es un plato común en su país de origen.</item>
-        <item>El sándwich con queso es un plato muy simple pero se considera uno de las meriendas más fáciles y deliciosas de entre la gastronomía Americana</item>
+        <item>El sándwitch con queso es un plato muy simple pero se considera uno de las meriendas más fáciles y deliciosas de entre la gastronomía Americana</item>
         <item>El entrante más famoso de Japón, el Sushi, se considera un platillo elegante y muy sabroso alrededor de todo el mundo y es al mismo tiempo uno de los platos más flexibles de la gastronomía Japonesa</item>
         <item>El arroz tres delicias originalmente creado en china ha sido adaptado a lo largo de los años en casi todos de los países de la unión Europea, es un plato simple pero uno de los favoritos de todo el mundo</item>
         <item>El mochi, es una pasta de arroz tradicional japonesa que se mezcla con sabores como el chocolate, o el té verde para darle saber, es famoso por ser un postre único en la gastronomía y uno muy popular</item>
@@ -52,14 +52,16 @@
         <item>Un postre que existe en todo el mundo y con millones de formas, el helado es un postre normalmente consumido en temporadas de calor y es un gran postre dulce que se utiliza en casi todas las gastronomías</item>
     </string-array>
     <string-array name="ingredientes">
-        <item>Patatas (3-4)\n
-            huevos pasteurizados (3)\n
-            cebolla frita (media)\n
-            aceite de girasol\n
-            aceite de oliva virgen\n
-            sal
+        <item>
+            \nPatatas (3-4)\n
+            Huevos pasteurizados (3)\n
+            Cebolla frita (media)\n
+            Aceite de girasol\n
+            Aceite de oliva virgen\n
+            Sal
             </item>
-        <item>Tomate\n
+        <item>
+            \nTomate\n
             Aceite de oliva\n
             Pepino\n
             Pimiento\n
@@ -67,13 +69,15 @@
             Sal\n
             Ajo
             </item>
-        <item>Pasta de espaguetis\n
+        <item>
+            \nPasta de espaguetis\n
             Carne picada\n
             Salsa de tomate\n
             Queso rallado (opcional)\n
             Ajo
             </item>
-        <item>Pan de hamburguesa\n
+        <item>
+            \nPan de hamburguesa\n
             Carne\n
             Loncha de queso\n
             Tomate (Rodajas)\n
@@ -81,58 +85,68 @@
             Lechuga\n
             Ketchup
             </item>
-        <item>Pollo (Rodajas)\n
+        <item>
+            \nPollo (Rodajas)\n
             Cerdo (troceado)\n
             Dashi\n
             Noodles\n
             Zanahoria
             </item>
-        <item>Oblea de maíz\n
+        <item>
+            \nOblea de maíz\n
             Carne picada\n
             Verduras (a elección)\n
             Salsa picante
             </item>
-        <item>Ternera\n
+        <item>
+            \nTernera\n
             Cebolla\n
             Zanahoria\n
             Guisantes\n
             Almendras
             </item>
-        <item>Pan Bimbo\n
+        <item>
+            \nPan Bimbo\n
             Queso de Loncha
             </item>
-        <item>Hoja de alga\n
+        <item>
+            \nHoja de alga nori\n
             Arroz\n
-            Slamon\n
+            Salmon\n
             Pepino\n
             Atún
             </item>
-        <item>Arroz\n
+        <item>
+            \nArroz\n
             Jamón\n
-            huevo\n
+            Huevo\n
             Guisantes\n
-            Salsa soja (opcional)
+            Salsa de soja (opcional)
             </item>
-        <item>175 g de harina de arroz para mochi o de arroz glutinoso\n
+        <item>
+            \n175 g de harina de arroz para mochi o de arroz glutinoso\n
             75 g de azúcar\n
             250 ml de agua\n
             Almidón de maíz para enharinar\n
             500 g de dulce de judía roja (anko)</item>
-        <item>3 huevos camperos\n
+        <item>
+            \n3 huevos camperos\n
             6 yemas de huevos camperos\n
             200 g. de azúcar (2 cucharaditas por flan, si los quieres menos dulce añadid menos)\n
             750 ml de leche entera
             </item>
-        <item>1 litro de leche\n
-            100 gr de arroz especial postres\n
+        <item>
+            \n1 litro de leche\n
+            100 gr de arroz especial para postres\n
             70 gr de azúcar\n
             2 trozos de corteza de limón\n
             2 trozos de corteza de naranja\n
             1 rama de canela\n
             1/2 vaina de vainilla\n
-            canela en polvo
+            Canela en polvo
             </item>
-        <item>125 gr de harina\n
+        <item>
+            \n125 gr de harina\n
             2 huevos\n
             250 ml de leche\n
             50 gr de mantequilla\n
@@ -140,7 +154,8 @@
             1 pizca de sal\n
             1 cucharadita de mantequilla para untar la sartén
             </item>
-        <item>Hielo\n
+        <item>
+            \nHielo\n
             Leche\n
             Azúcar\n
             Saborizante (a elegir)

@@ -6,7 +6,7 @@
     android:layout_height="200dp"
     app:cardBackgroundColor="#B5A19C"
     app:cardCornerRadius="5dp"
-    app:cardElevation="5dp"
+    app:cardElevation="10dp"
     app:contentPadding="10dp">
 
     <LinearLayout
@@ -16,7 +16,7 @@
 
         <ImageView
             android:id="@+id/imgFoto"
-            android:layout_width="wrap_content"
+            android:layout_width="129dp"
             android:layout_height="match_parent"
             android:paddingHorizontal="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -31,13 +31,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="27dp" />
+
             <TextView
                 android:id="@+id/txtTitulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TextView"
                 android:textColor="#000000"
-                android:textSize="15dp"
+                android:textSize="22dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.418"
@@ -52,10 +56,10 @@
             <TextView
                 android:id="@+id/txtDescripcion"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="115dp"
                 android:text="TextView"
                 android:textColor="#000000"
-                android:textSize="12sp"
+                android:textSize="18dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.778"
