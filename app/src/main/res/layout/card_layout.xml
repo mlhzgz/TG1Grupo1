@@ -7,7 +7,9 @@
     app:cardBackgroundColor="#B5A19C"
     app:cardCornerRadius="5dp"
     app:cardElevation="10dp"
-    app:contentPadding="10dp">
+    app:contentPadding="10dp"
+    android:layout_margin="10dp">
+    <!--- Con layout_margin podemos dar espacios visibles de cada item del recyclerview -->
 
     <LinearLayout
         android:layout_width="match_parent"
