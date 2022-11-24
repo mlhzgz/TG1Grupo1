@@ -22,7 +22,7 @@ import com.example.tg1grupo1.model.Receta;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RAdapter.OnNoteListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView recyclerRecetas = findViewById(R.id.recyclerRecetas);
         recyclerRecetas.setHasFixedSize(true);
-        recyclerRecetas.setAdapter(new RAdapter(recetas));
+        recyclerRecetas.setAdapter(new RAdapter(recetas, this));
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerRecetas.setLayoutManager(layoutManager);
@@ -84,4 +84,8 @@ public class MainActivity extends AppCompatActivity {
         builder.show();
     }
 
+    @Override
+    public void onNoteClic(int posicion) {
+        //metodo en que se va a ejecutar cuando cliquemos en el elemento correspondiente
+    }
 }

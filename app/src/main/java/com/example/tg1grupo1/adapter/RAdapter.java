@@ -21,8 +21,12 @@ import java.util.List;
 public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder>{
 
     private List<Receta> recetas;
+    private OnNoteListener mOnNoteListener;
 
-    public RAdapter(List<Receta> recetas){ this.recetas = recetas; }
+    public RAdapter(List<Receta> recetas, OnNoteListener onNoteListener){
+        this.recetas = recetas;
+        this.mOnNoteListener = onNoteListener;
+    }
 
     @NonNull
     @Override
@@ -30,7 +34,7 @@ public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder>{
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.card_layout, parent, false);
 
-        return new ViewHolder(view);
+        return new ViewHolder(view, mOnNoteListener);
     }
 
 
@@ -46,17 +50,27 @@ public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder>{
         return recetas.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public ImageView imagen;
         public TextView titulo;
         public TextView descripcion;
+        OnNoteListener onNoteListener;
 
-        public ViewHolder(@NonNull View itemView) {
+        public ViewHolder(@NonNull View itemView, OnNoteListener onNoteListener) {
             super(itemView);
             imagen = itemView.findViewById(R.id.imgFoto);
             titulo = itemView.findViewById(R.id.txtTitulo);
             descripcion = itemView.findViewById(R.id.txtDescripcion);
+            this.onNoteListener = onNoteListener;
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            onNoteListener.onNoteClic(getAdapterPosition());
         }
     }
-
+    public interface OnNoteListener{
+        void onNoteClic(int posicion);
+    }
 }
