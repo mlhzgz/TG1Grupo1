@@ -10,6 +10,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -77,15 +79,13 @@ public class MainActivity extends AppCompatActivity implements RAdapter.OnNoteLi
         imagenes.add(R.drawable.helado);
         return imagenes;
     }
-    private void alerta(String contenido){
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("ALERTA");
-        builder.setMessage(contenido);
-        builder.show();
-    }
 
     @Override
     public void onNoteClic(int posicion) {
         //metodo en que se va a ejecutar cuando cliquemos en el elemento correspondiente
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        View view = inflater.inflate(R.layout.descripcion_layout, null);
+        builder.setView(view);
     }
 }
