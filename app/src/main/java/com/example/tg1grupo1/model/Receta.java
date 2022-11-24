@@ -43,4 +43,12 @@ public class Receta {
     public String getDescripcionLarga() { return descripcionLarga; }
 
     public void setDescripcionLarga(String descripcionLarga) { this.descripcionLarga = descripcionLarga; }
+
+    public String getIngredientes() {
+        return ingredientes;
+    }
+
+    public void setIngredientes(String ingredientes) {
+        this.ingredientes = ingredientes;
+    }
 }
