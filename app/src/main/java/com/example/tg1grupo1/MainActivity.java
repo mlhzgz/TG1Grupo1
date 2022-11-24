@@ -35,15 +35,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //con este for lo que hacemos es automatizar el cargar los datos dentro del reciclerView
     private void creadorDeContenido(){
-        ArrayList<Integer> imagenes = new ArrayList<>();
-        imagenes.add(R.drawable.gazpacho);
+        ArrayList<Integer> imagenes = insertarImagenes();
         List<Receta> recetas = new ArrayList<>();
         String[] titulo = getResources().getStringArray(R.array.titulo);
         String[] ingredientes = getResources().getStringArray(R.array.ingredientes);
         String[] descripcion = getResources().getStringArray(R.array.descripcionCorta);
         String[] descripcionLarga = getResources().getStringArray(R.array.descripcionLarga);
-        //con este for lo que hacemos es automatizar el cargar los datos dentro del reciclerView
         for(int i = 0; i<imagenes.size();i++){
             recetas.add(new Receta(imagenes.get(i), titulo[i], ingredientes[i], descripcion[i], descripcionLarga[i]));
         }
@@ -59,7 +58,25 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerRecetas.setLayoutManager(layoutManager);
     }
-
+    private ArrayList<Integer> insertarImagenes(){
+        ArrayList<Integer> imagenes = new ArrayList<>();
+        imagenes.add(R.drawable.tortillaptata);
+        imagenes.add(R.drawable.gazpacho);
+        imagenes.add(R.drawable.espaguetis);
+        imagenes.add(R.drawable.hamburguesa);
+        imagenes.add(R.drawable.ramen);
+        imagenes.add(R.drawable.burrito);
+        imagenes.add(R.drawable.ternerachina);
+        imagenes.add(R.drawable.sandwitch);
+        imagenes.add(R.drawable.shusi);
+        imagenes.add(R.drawable.arroz);
+        imagenes.add(R.drawable.mochi);
+        imagenes.add(R.drawable.flan);
+        imagenes.add(R.drawable.arrozconleche);
+        imagenes.add(R.drawable.crep);
+        imagenes.add(R.drawable.helado);
+        return imagenes;
+    }
     private void alerta(String contenido){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("ALERTA");
