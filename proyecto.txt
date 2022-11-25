@@ -1,25 +1,48 @@
 # Partes del proyecto
 
     #Estructuras de datos
-    Descripcion de platos, Recetas y Imagenes de platos
 
-    Array de Strings con la descripcion corta y larga del proyecto mas las imagenes de las recetas
+    Clase Receta muestra los datos de la aplicacion
+    (String titulo, String descripcion, String des_extensa, Array<String> ingredientes)
+    Alert Dialog (datos de la receta + imagen)
+    Alerto dialog IMG (imagen ampliada del programa)
 
-    #Estructuras de código
+    #Estructuras de proyecto
         #Actividades
-            #Splash / Temas / Recopilación de Información (Nicolas Del Amo)
-            #Enlace Actividades / Correcto Funcionamiento / Jefe de Equipo (Daniel Alvaro del Rio)
-            #RecyclerView / Layouts (Christian Martinez)
+            #(Nicolas Del Amo)
+            Correcta visualizacion de la aplicacion y su estilo a la hora de ser mostrado al usuario
+            con los iconos de la aplicacion tanto antes de ejecutar como cuando es ejecutado
+                Temas / Iconos / Manifiesto de proyecto / Imagenes
+
+
+            #(Daniel Alvaro del Rio)
+            Correcto funcionamiento de la aplicacion y que funcione correctamente la aplicacion,
+            tambien crea los layouts de la aplicacion
+                Enlace Actividades / Correcto Funcionamiento / Jefe de Equipo / Main Activity
+
+            #(Christian Martinez)
+            Funcionamiento del recycler view y desarrollo de los layouts y su correcto funcionamiento,
+            revisa el codigo junto al jefe del equipo
+                RecyclerView / Layouts / Revision de codigo
 
     #Descripción del proyecto
-    # Inicio Splash : El inicio de la aplicacion consiste en un splash que durara 5 Segundos mostrado el logo de la aplicacion ->
 
+    (Nicolas del amo)
+    #Icono Aplicacion :Antes de iniciar, el logo a sido cambiado para que muestre el logo de la aplicacion como icono ->
+
+    (Nicolas del amo)
+    -> # Inicio Splash : El inicio de la aplicacion consiste en un splash que durara 5 Segundos mostrado el logo de la aplicacion ->
+
+    (Daniel del rio)
     -> # MainActivity : Esta ventana mostrara las recetas de la aplicacion con un recyclerview ->
 
+    (Christian martinez)
     -> # RecyclerView : Al pulsar sobre cualquier apartado de recetas se mostrara el alert dialoj detallado ->
 
+    (Daniel del rio)
     -> # AlertDialog : Mostrara el nombre, los ingredientes y una descripcion extensa del plato acompañada de una imagen ->
 
+    (Nicolas del amo)
     -> # Imagen : Mostrar la imagen a gran escala para que se pueda ver el resultado final
 
     La aplicacion se basa en que empieze con un Splash que mostrara el logo de la aplicacion dando la bienvenida al usuario,
