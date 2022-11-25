@@ -25,12 +25,13 @@
                 android:textAlignment="textStart"
                 tools:srcCompat="@tools:sample/avatars" />
 
-            <TextView
+            <EditText
                 android:id="@+id/txtIngredientes"
                 android:layout_width="match_parent"
                 android:layout_height="198dp"
                 android:ems="10"
                 android:gravity="start|top"
+                android:focusable="false"
                 android:textAlignment="textStart"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -53,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/txtDescripcionLarga"
                 android:layout_width="match_parent"
                 android:layout_height="284dp"
@@ -61,6 +62,7 @@
                 android:gravity="start|top"
                 android:paddingHorizontal="5dp"
                 android:textColor="#000000"
+                android:focusable="false"
                 android:textSize="16dp" />
         </LinearLayout>
     </LinearLayout>
